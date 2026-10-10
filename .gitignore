@@ -1,0 +1,55 @@
+.env
+.env.local
+
+# Session/profile/state/logs/cache
+firefox-profile/
+firefox-profile.bak/
+state.json
+forwarded_ids.txt
+state.tmp
+
+# Artifacts
+*.log
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.json
+cookies*.json
+tokens*.json
+api_responses*.json
+all_api_data*.json
+captcha*.png
+captcha*.txt
+auth.log
+fetchmail.log
+forward.log
+cron.log
+forward_state.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+.eggs/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Venvs/tools
+venv/
+.envrc
+.venv/
+
+# OS/cache
+.DS_Store
+Thumbs.db
+.cache/
+ms-playwright/
+playwright-core/
